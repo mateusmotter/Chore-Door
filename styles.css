@@ -1,0 +1,76 @@
+* {
+    color: white;
+    font-family: 'Work Sans', sans-serif;
+}
+
+header {
+    background-color: aqua;
+    display: flex;
+    justify-content: center;
+}
+
+header h1 {
+    color:  #010165;
+}
+
+body {
+    background-color: #010165;
+    margin: 0px;
+  }
+
+#instructions h2{
+    text-align: center;
+}
+
+#instructions-box {
+    display: flex;
+    justify-content: center;
+}
+.door-row {
+    display: flex;
+    justify-content: center;
+}
+  
+.door-frame {
+    cursor: pointer;
+    padding: 10px;
+    
+  }
+  
+#message {
+    cursor: pointer;
+    background-color: orange;
+    font-weight: bold;
+    height: 100px;
+    width: 120px;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    
+}
+
+#counter {
+    
+    margin: 10px;
+    display: flex;
+    justify-content: center;
+}
+
+.win-box,
+.loss-box {
+    margin: 10px;
+}
+
+#wins,
+#losses {
+    margin: 10px;
+    background-color: aqua;
+    padding: 10px;
+    color: #010165;
+    font-size: 60px;
+    margin: 0;
+    text-align: center;
+}
+
